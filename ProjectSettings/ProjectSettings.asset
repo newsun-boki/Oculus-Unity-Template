@@ -142,6 +142,9 @@ PlayerSettings:
   bundleVersion: 0.1
   preloadedAssets:
   - {fileID: 11400000, guid: 52210af2fb2f61942bd14307973f6ddb, type: 2}
+  - {fileID: -5710415934846886437, guid: 9d4128cae3c9f33429f63459a3a9fa4f, type: 2}
+  - {fileID: 11400000, guid: ce5afd7bacd0269459f7d913024265ea, type: 2}
+  - {fileID: 3437749318535245600, guid: 55d55d04b024bf447a4cbf810aa4ee34, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -714,7 +717,10 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   webGLPowerPreference: 2
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: USE_INPUT_SYSTEM_POSE_CONTROL
+    Standalone: USE_INPUT_SYSTEM_POSE_CONTROL
+    Windows Store Apps: USE_INPUT_SYSTEM_POSE_CONTROL
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
